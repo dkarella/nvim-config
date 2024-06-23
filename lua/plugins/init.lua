@@ -30,11 +30,7 @@ return {
   {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
-  		ensure_installed = {
-        "cpp",
-  			"vim", "lua", "vimdoc",
-       "html", "css"
-  		},
+  		ensure_installed = {"cpp", "vim", "lua", "vimdoc", "html", "css"},
   	},
   },
 
