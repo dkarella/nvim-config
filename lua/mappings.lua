@@ -17,3 +17,4 @@ end, { desc = "terminal toggleable vertical term" })
 map("n", "<leader>h", function()
   require("nvchad.term").toggle { pos = "sp", id = "htoggleTerm" }
 end, { desc = "terminal new horizontal term" })
+map("n", "<leader>n", "<cmd>enew<CR>", { desc = "buffer new" })
