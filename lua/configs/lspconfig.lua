@@ -6,7 +6,7 @@ local capabilities = require("nvchad.configs.lspconfig").capabilities
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "clangd", "gopls", "zls" }
+local servers = { "html", "cssls", "clangd", "gopls", "python-lsp-server" }
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
