@@ -20,7 +20,7 @@ return {
   	"williamboman/mason.nvim",
   	opts = {
   		ensure_installed = {
-        "clangd", "clang-format", "gopls", "python-lsp-server", "lua-language-server", "stylua", "html-lsp", "css-lsp", "prettier"
+        "clangd", "gopls", "pyright", "lua-language-server", "stylua", "html-lsp", "css-lsp", "prettier"
   		},
   	},
   },
